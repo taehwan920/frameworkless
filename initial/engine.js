@@ -9,7 +9,6 @@ const state = {
 const main = document.querySelector(".todoapp");
 
 window.requestAnimationFrame(() => {
-  console.log("done?");
   const newMain = view(main, state);
   main.replaceWith(newMain);
 });
